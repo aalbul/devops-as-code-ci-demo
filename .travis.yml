@@ -1,4 +1,3 @@
-language: ruby
-rvm:
-- 2.2
-- jruby
+language: java
+script:
+  - xlw apply -f xebialabs.yaml
