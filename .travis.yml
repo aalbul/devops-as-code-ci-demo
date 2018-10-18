@@ -3,4 +3,4 @@ os: windows
 node_js:
   - node
 script:
-  - powershell -c 'xlw.bat apply -f xebialabs.yaml'
+  - powershell -c 'Start-Process xlw.bat apply -f xebialabs.yaml'
