@@ -3,4 +3,4 @@ os: windows
 node_js:
   - node
 script:
-  - call dir
+  - cmd.exe /c dir
