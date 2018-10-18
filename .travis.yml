@@ -1,4 +1,6 @@
-language: generic
+language: node_js
 os: windows
+node_js:
+  - node
 script:
   - pwsh -c 'Install-Module Pester -Force -Scope CurrentUser; .\DoTests.ps1'
