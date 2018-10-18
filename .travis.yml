@@ -1,4 +1,4 @@
-language: node_js
+language: groovy
 os: windows
 script:
   - ./xlw apply -f xebialabs.yaml
