@@ -1,0 +1,2 @@
+script:
+xlw apply -f xebialabs.yaml
