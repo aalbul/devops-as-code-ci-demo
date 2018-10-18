@@ -1,3 +1,4 @@
 language: node_js
+os: windows
 script:
   - ./xlw apply -f xebialabs.yaml
