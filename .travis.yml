@@ -9,5 +9,7 @@ matrix:
 
     - os: linux
       language: node_js
+      env:
+        - XL_DEPLOY_URL=http://1.2.3.4:55667
       script:
         - ./xlw apply -f xebialabs.yaml
