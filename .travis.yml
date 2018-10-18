@@ -3,5 +3,6 @@ os: windows
 node_js:
   - node
 script:
+  - node -v
 powershell:
   - call xlw.bat apply -f xebialabs.yaml
