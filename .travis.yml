@@ -3,4 +3,4 @@ os: windows
 node_js:
   - node
 script:
-  - xlw.bat
+  - cmd.exe /c xlw.bat apply -v -f xebialabs.yaml
