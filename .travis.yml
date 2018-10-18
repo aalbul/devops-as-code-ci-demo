@@ -2,5 +2,5 @@ language: node_js
 os: windows
 node_js:
   - node
-script:
+powershell:
   - call xlw.bat apply -f xebialabs.yaml
