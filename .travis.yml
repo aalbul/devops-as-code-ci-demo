@@ -3,4 +3,4 @@ os: windows
 node_js:
   - node
 script:
-  - pwsh -c 'Install-Module Pester -Force -Scope CurrentUser; .\DoTests.ps1'
+  - powershell -c 'Install-Module Pester -Force -Scope CurrentUser; .\DoTests.ps1'
