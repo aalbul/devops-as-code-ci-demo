@@ -1,5 +1,7 @@
 resources:
 - repo: self
+queue:
+  name: Hosted Ubuntu 1604
 steps:
 - bash: |
    export DOCKER_PORT=$(docker port gitops_xl-release_1 5516 | awk -F: '{print $2}')
