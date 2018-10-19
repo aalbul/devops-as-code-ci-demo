@@ -1,5 +1,6 @@
 resources:
 - repo: self
+steps:
 - script: |
    xlw apply -f xebialabs.yaml
   displayName: 'CMD Script'
