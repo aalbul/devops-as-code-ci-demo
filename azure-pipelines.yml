@@ -1,7 +1,5 @@
 resources:
 - repo: self
-queue:
-  name: Default
 steps:
 - bash: |
    export DOCKER_PORT=$(docker port gitops_xl-release_1 5516 | awk -F: '{print $2}')
