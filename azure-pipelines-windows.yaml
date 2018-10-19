@@ -2,7 +2,7 @@ resources:
 - repo: self
 steps:
 - script: |
-   xlw apply -f xebialabs.yaml
+   xlw.bat apply -f xebialabs.yaml
   displayName: 'CMD Script'
   continueOnError: true
   env:
